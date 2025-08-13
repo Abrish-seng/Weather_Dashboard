@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { format, addDays } from 'date-fns';
+import { format} from 'date-fns';
 import './WeatherForcast.css';
 
 const WeatherForecast = ({ data }) => {
